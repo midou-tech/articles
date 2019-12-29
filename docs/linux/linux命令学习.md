@@ -6,7 +6,7 @@
 
 本文已收录到我的github:[https://github.com/midou-tech/articles/tree/master/docs/linux](https://github.com/midou-tech/articles/tree/master/docs/linux) ，欢迎star和issues。
 
-### 序言
+###  序言
 
 &emsp;本篇文章主要讲解了一些linux常用命令，主要讲解模式是，命令介绍、命令参数格式、命令参数、命令常用参数示例。由于linux命令较多，我还特意选了一些日常使用较为频繁的命令进行讲解，但还是免不了文章很长，建议大家收藏起来，用到的时候不会了再来阅读。当然学习linux命令最好的方法是学会使用linux自带的man手册，所有linux命令规范和使用细则都会在该手册中讲解的很清楚，我在书写的过程中也是参考该手册和日常使用情况。
 
@@ -14,9 +14,9 @@
 
 ## Linux初级指令
 
-###**ls** ——List
+###  ls ——List
 
-####ls 介绍
+####  ls 介绍
 
 &emsp;这是我学Linux的第一个命令，相信也是很多人学习Linux的第一个命令。ls全称list.
 
@@ -37,11 +37,11 @@ $ls /etc/hosts
 
 ![image-20191221161638964](https://tva1.sinaimg.cn/large/006tNbRwly1ga4ezic291j30g70cfjtl.jpg)
 
-#### ls 参数格式
+####  ls 参数格式
 
 `ls [OPTION]... [FILE]...`
 
-####ls命令参数
+####  ls命令参数
 
 -a  列出指定目录下的所有文件，包括隐藏文件
 
@@ -61,7 +61,7 @@ $ls /etc/hosts
 
 -u 使用最后一次访问的时间，而不是最后一次修改文件进行排序
 
-#### ls 用法示例：
+####  ls 用法示例：
 
 ```bash
 $ ls
@@ -101,17 +101,17 @@ total 4.0K
 drwxr-xr-x 2 test 4.0K Dec 21 19:54 tmp
 ```
 
-###**pwd** —— Print Working Directory
+###  pwd —— Print Working Directory
 
-#### pwd介绍
+####  pwd介绍
 
 &emsp;打印当前工作目录的完整路径名。(print name of current/working directory)
 
-#### 参数格式
+####  参数格式
 
 `pwd [OPTION]...`
 
-#### pwd 用法展示
+####  pwd 用法展示
 
 ```bash
 [test@Mfate171193 /home/test] 20:06
@@ -119,9 +119,9 @@ $ pwd
 /home/test
 ```
 
-### **touch**  (change file timestamps)
+###  touch  (change file timestamps)
 
-####touch介绍
+####  touch介绍
 
 > Update the access and modification times of each FILE to the current time.
 >
@@ -129,11 +129,11 @@ $ pwd
 
 &emsp;将每个文件的访问和修改时间更新为当前时间。除非提供-c或-h，否则将不存在的FILE参数创建为空。
 
-#### touch参数格式
+####  touch参数格式
 
 `touch [OPTION]... FILE...  `
 
-#### touch命令参数
+####  touch命令参数
 
 -a  或--time=atime或--time=access或--time=use 只更改存取时间。
 
@@ -149,7 +149,7 @@ $ pwd
 
 -t 使用指定的日期时间，而非现在的时间。
 
-#### 用法示例
+####  用法示例
 
 ```bash
 #创建三个文件
@@ -188,19 +188,19 @@ Change: 2019-12-21 20:56:34.523761038 +0800
  Birth: -
 ```
 
-###**cat&tac** (Concatenate FILE(s), or standard input, to standard output.)
+### **cat&tac** (Concatenate FILE(s), or standard input, to standard output.)
 
-#### cat介绍
+####  cat介绍
 
 > Concatenate FILE(s), or standard input, to standard output.
 >
 > 将FILE或标准输入连接到标准输出。
 
-#### cat 参数格式
+####  cat 参数格式
 
  `cat [OPTION]... [FILE]...`
 
-#### cat命令参数
+####  cat命令参数
 
 -A, --show-all      等价于 -vET
 
@@ -216,13 +216,13 @@ Change: 2019-12-21 20:56:34.523761038 +0800
 
 -t            与 -vT 等价
 
--T, --show-tabs     将跳格字符显示为 ^I
+-T, --show-tabs     将跳格字符显示为 #### I
 
 -u            (被忽略)
 
--v, --show-nonprinting  使用 ^ 和 M- 引用，除了 LFD 和 TAB 之外
+-v, --show-nonprinting  使用 ####  和 M- 引用，除了 LFD 和 TAB 之外
 
-#### cat常用参数示例
+####  cat常用参数示例
 
 ```bash
 $ cat test  #展示文件内容
@@ -236,7 +236,7 @@ $ cat -n test  #展示文件内容并且展示行号
      3	-e            等价于 -vE
 ```
 
-### tac命令与cat命令展示内容相反，不能带行号输出。
+###  tac命令与cat命令展示内容相反，不能带行号输出。
 
 ```bash
 $ tac test
@@ -245,19 +245,19 @@ $ tac test
 -A, --show-all      等价于 -vET
 ```
 
-### **mkdir —— Make Directory**
+###  **mkdir —— Make Directory**
 
-#### mkdir介绍
+####  mkdir介绍
 
 >Create the DIRECTORY(ies), if they do not already exist.
 >
 >如果目录不存在，则创建目录。
 
-#### mkdir参数格式
+####  mkdir参数格式
 
  `mkdir [OPTION]... DIRECTORY...`
 
-#### mkdir命令参数
+####  mkdir命令参数
 
  -m, --mode=模式，设定权限<模式> (类似 chmod)，而不是 rwxrwxrwx 减 umask
 
@@ -269,7 +269,7 @@ $ tac test
 
    --version 输出版本信息并退出
 
-#### mkdir常用参数示例
+####  mkdir常用参数示例
 
 ```bash
 #创建目录文件test
@@ -296,13 +296,13 @@ $ mkdir -v test7
 mkdir: created directory ‘test7’
 ```
 
-### **cd** —— Change Directory
+###  **cd** —— Change Directory
 
-#### cd介绍
+####  cd介绍
 
 &emsp;切换当前目录至指定目录
 
-#### 常用参数示例
+####  常用参数示例
 
 ```bash
 #打印当前目录到标准输出
@@ -314,9 +314,9 @@ $cd /
 
 &emsp;cd命令没什么参数就是切换目录到指定路径下，较为简单，但是使用评率极高。
 
-### rm&rmdir  —— Remove Directory
+###  rm&rmdir  —— Remove Directory
 
-#### rm介绍
+####  rm介绍
 
 >The rm utility attempts to remove the non-directory type files specified on the command line.  If the permissions of the file do not permit writing, and the standard input device is a terminal, the user is prompted (on the standard error output) for confirmation.
 >
@@ -324,11 +324,11 @@ $cd /
 
 &emsp;rm命令使用时还是需要注意的，他的删除恢复比较麻烦，有些系统会自带-i参数，输入命令之后还有一个确认步骤，有些是直接删掉了，是真删掉，从内存抹掉那种（其实底层是让该文件指针不指向该文件的内存块，内存上的内容原则上是存在的，但是恢复会比较复杂，需要扫描整块内存块才能拿到内容）。不要轻易删掉你写的重要代码，hh。
 
-#### rm参数格式
+####  rm参数格式
 
 ` rm [-dfiPRrvW] file ...`
 
-#### rm命令参数
+####  rm命令参数
 
 -f, --force  忽略不存在的文件，从不给出提示。
 
@@ -338,7 +338,7 @@ $cd /
 
 -d, --dir 删除空目录
 
-#### rm常用参数示例
+####  rm常用参数示例
 
 ```bash
 # 创建三个文件
@@ -365,9 +365,9 @@ tmp.java tmp.py
 
 &emsp;rmdir==rm -d  删除空目录
 
-### mv —— Move
+###  mv —— Move
 
-#### mv介绍
+####  mv介绍
 
 >In its first form, the mv utility renames the file named by the source operand to the destination path named by the target operand.  This form is assumed when the last operand does not name an already existing directory.
 >
@@ -375,12 +375,12 @@ tmp.java tmp.py
 >
 >总结下，就是移动目录或者文件到置顶目录下，同时具有重命名的功能。
 
-#### mv参数格式
+####  mv参数格式
 
 `mv [-f | -i | -n] [-v] source target
 mv [-f | -i | -n] [-v] source ... directory`
 
-#### mv命令参数
+####  mv命令参数
 
 -b ：若需覆盖文件，则覆盖前先行备份。 
 
@@ -392,7 +392,7 @@ mv [-f | -i | -n] [-v] source ... directory`
 
 -u ：若目标文件已经存在，且 source 比较新，才会更新(update)
 
-#### mv常用参数示例
+####  mv常用参数示例
 
 ```bash
 ##修改文件名
@@ -427,20 +427,20 @@ tesla.ba tmp.java tmp.log
 
 &emsp;这个命令在写makefile文件的时候用起来很舒服，可以把编译的结果移到指定目录并重命名。
 
-### cp ——  Copy
+###  cp ——  Copy
 
-#### cp介绍
+####  cp介绍
 
 > In the first synopsis form, the cp utility copies the contents of the source_file to the target_file.  In the second synopsis form, the contents of each named source_file is copied to the destination target_directory.  The names of the files themselves are not changed.  If cp detects an attempt to copy a file to itself, the copy will fail.
 >
 > cp实用程序将source_file的内容复制到target_file。 在第二个大纲格式中，每个命名的source_file的内容都复制到目标target_directory。 文件本身的名称不会更改。 如果cp检测到尝试将文件复制到自身的尝试，则复制将失败。
 
-#### cp参数格式
+####  cp参数格式
 
 `cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
  cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory`
 
-#### 命令参数
+####  命令参数
 
 -a, --archive  等于-dR --preserve=all
 
@@ -476,7 +476,7 @@ tesla.ba tmp.java tmp.log
 
 -R, -r, --recursive 复制目录及目录内的所有项目
 
-#### 常用参数示例
+####  常用参数示例
 
 ```bash
 $ cat tmp.cc
@@ -490,9 +490,9 @@ change world
 
 ```
 
-### echo
+###  echo
 
-#### echo介绍
+####  echo介绍
 
 > The echo utility writes any specified operands, separated by single blank (` ') characters and followed by a newline (`\n') character, to the standard output.
 >
@@ -512,9 +512,9 @@ $ echo $PWD
 
 `$`PWD 是取当前路径，然后echo到标准输出，一般echo \$name 用来查看某个环境变量的值
 
-### head&tail
+###  head&tail
 
-#### head介绍
+####  head介绍
 
 > This filter displays the first count lines or bytes of each of the specified files, or of the standard input if no files are specified.  If count is omitted it defaults to 10.
 >
@@ -524,17 +524,17 @@ $ echo $PWD
 >
 > 如果省略count，则默认为10.如果指定了多个文件，则每个文件的头均由字符串``==> XXX <==''组成，其中``XXX''为文件名 文件。
 
-#### head参数格式
+####  head参数格式
 
 ` head [-n count | -c bytes] [file ...]`
 
-####head常用参数示例
+#### head常用参数示例
 
 -n 展示前n行
 
 -c 展示前n个字符
 
-#### head常用参数示例
+####  head常用参数示例
 
 ```bash
 $ cat -n test.txt #这就用上前面的cat命令的-n参数，要学会学以致用哦。
@@ -623,9 +623,9 @@ tail命令完全和他相反，是从尾部开始展示文本，但是他的参�
 
 tail和head命令经常用来查看日志，像我现在基本每天都会用，我的日志文件没办法用vim或者cat这样去看（因为我负责的业务日志量每天都是几十个G），要么用tail，要么用more&less(下面会讲)。
 
-###more&less
+### more&less
 
-#### more介绍
+####  more介绍
 
 > Less  is  a  program similar to more (1), but which allows backward movement in the file as well as forward movement.  Also, less does not have to read the entire input file before starting, so with large input files it starts up faster than text editors like vi (1).  Less uses termcap (or terminfo on some systems), so it can run on a variety of terminals.  There is even limited support for hardcopy terminals.  (On a hardcopy terminal, lines which should be printed  at the top of the screen are prefixed with a caret.)
 >
@@ -633,11 +633,11 @@ tail和head命令经常用来查看日志，像我现在基本每天都会用，
 
 more&less最重要的一点就是流式读取，支持翻页，像cat命令是全部读取输出到标准输出，如果文件太大会把屏幕刷满的，根本没办法看。
 
-#### more参数格式
+####  more参数格式
 
 `more [-dlfpcsu ] [-num ] [+/ pattern] [+ linenum] [file ... ] `
 
-####more命令参数
+#### more命令参数
 
 +n   从笫n行开始显示
 
@@ -659,9 +659,9 @@ more&less最重要的一点就是流式读取，支持翻页，像cat命令是�
 
 **less 与 more 类似，但使用 less 可以随意浏览文件，而 more 仅能向前移动，却不能向后移动，而且 less 在查看之前不会加载整个文件**
 
-### wc
+###  wc
 
-#### wc介绍
+####  wc介绍
 
 >The wc utility displays the number of lines, words, and bytes contained in each input file, or standard input (if no file is specified) to the standard output.  A line is defined as a string of characters delimited by a <newline> charac-ter.  Characters beyond the final <newline> character will not be included in the line count.
 >
@@ -669,11 +669,11 @@ more&less最重要的一点就是流式读取，支持翻页，像cat命令是�
 
 这条命令对我来说还是比较深刻的，我刚学习编程不久的时候，我感觉我写的代码很多了，那个时候我就很想知道我写了多少行代码了，一时兴起，说干就干，直接写了个程序去统计了一把，写完之后还感觉自己蛮厉害的，谁知道之后学习到这个wc，然后就觉得自己还是嫩了点，还是要多学习。
 
-#### wc参数格式
+####  wc参数格式
 
 `wc [-clmw] [file ...]`
 
-#### wc命令参数
+####  wc命令参数
 
 -c 统计字节数。
 
@@ -685,7 +685,7 @@ more&less最重要的一点就是流式读取，支持翻页，像cat命令是�
 
 -L 打印最长行的长度。
 
-#### 常用参数示例
+####  常用参数示例
 
 ```bash
 $ ls
@@ -702,9 +702,9 @@ $ wc -c test.txt
 
 ```
 
-### date & cal
+###  date & cal
 
-#### date介绍
+####  date介绍
 
 >When invoked without arguments, the date utility displays the current date and time.  Otherwise, depending on the options specified, date will set the date and time or print it in a user-defined way.
 >
@@ -718,14 +718,14 @@ $ wc -c test.txt
 >
 >只有超级用户可以设置日期，并且如果系统安全级别（请参阅securelevel（7））大于1，则时间更改不得超过1秒。
 
-#### date参数格式
+####  date参数格式
 
 `date [-jRu] [-r seconds | filename] [-v [+|-]val[ymwdHMS]] ... [+output_fmt]
      date [-jnu] [[[mm]dd]HH]MM[[cc]yy][.ss]
      date [-jnRu] -f input_fmt new_date [+output_fmt]
      date [-d dst] [-t minutes_west]`
 
-#### date命令参数
+####  date命令参数
 
 %H 小时(以00-23来表示)。 
 
@@ -799,7 +799,7 @@ ss 秒(选择性)
 
 -u 显示GMT。
 
-#### 常用参数示例
+####  常用参数示例
 
 ```bash
 $ date
@@ -819,11 +819,11 @@ $ date '+%X'
 
 ```
 
-#### cal介绍
+####  cal介绍
 
 cal命令可以用来显示公历（阳历）日历。
 
-#### cal参数格式
+####  cal参数格式
 
 ` cal [-3hjy] [-A number] [-B number] [[month] year]
      cal [-3hj] [-A number] [-B number] -m month [year]
@@ -831,7 +831,7 @@ cal命令可以用来显示公历（阳历）日历。
      ncal [-3hJeo] [-A number] [-B number] [year]
      ncal [-CN] [-H yyyy-mm-dd] [-d yyyy-mm]`
 
-#### cal命令参数
+####  cal命令参数
 
 -1 显示一个月的月历
 
@@ -843,7 +843,7 @@ cal命令可以用来显示公历（阳历）日历。
 -j  显示在当年中的第几天（一年日期按天算，从1月1号算起，默认显示当前月在一年中的天数）
 -y  显示当前年份的日历
 
-#### cal常用参数示例
+####  cal常用参数示例
 
 ```bash
 $ cal
@@ -868,15 +868,15 @@ $ ncal
 
 ```
 
-### which
+###  which
 
-#### which介绍
+####  which介绍
 
 > The which utility takes a list of command names and searches the path for each executable file that would be run had these commands actually been invoked.
 >
 > which命令的作用是，在PATH变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果。也就是说，使用which命令，就可以看到某个系统命令是否存在，以及执行的到底是哪一个位置的命令。 
 
-#### which参数格式
+####  which参数格式
 
 -n 指定文件名长度，指定的长度必须大于或等于所有文件中最长的文件名。
 
@@ -884,7 +884,7 @@ $ ncal
 
 -w 指定输出时栏位的宽度。
 
-#### which常用参数示例
+####  which常用参数示例
 
 ```bash
 $ which ls
@@ -899,17 +899,17 @@ alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-ti
 
 ```
 
-### whereis
+###  whereis
 
-#### whereis介绍
+####  whereis介绍
 
 whereis命令只能用于程序名的搜索，而且只搜索二进制文件（参数-b）、man说明文件（参数-m）和源代码文件（参数-s）。如果省略参数，则返回所有信息。
 
-#### whereis参数格式
+####  whereis参数格式
 
 `whereis [program ...]`
 
-#### whereis命令参数
+####  whereis命令参数
 
 -b  定位可执行文件。
 
@@ -925,7 +925,7 @@ whereis命令只能用于程序名的搜索，而且只搜索二进制文件（�
 
 -S  指定搜索源代码文件的路径。
 
-#### whereis常用参数示例
+####  whereis常用参数示例
 
 ```bash
 $ whereis ls
@@ -936,17 +936,17 @@ $ whereis whereis
 
 ```
 
-### nl
+###  nl
 
-#### nl介绍
+####  nl介绍
 
 nl命令在linux系统中用来计算文件中行号。nl 可以将输出的文件内容自动的加上行号！其默认的结果与 cat -n 有点不太一样， nl 可以将行号做比较多的显示设计，包括位数与是否自动补齐 0 等等的功能。
 
-#### nl参数格式
+####  nl参数格式
 
 `nl [-p] [-b type] [-d delim] [-f type] [-h type] [-i incr] [-l num] [-n format] [-s sep] [-v startnum] [-w width] [file]`
 
-#### nl命令参数
+####  nl命令参数
 
 -b ：指定行号指定的方式，主要有两种：
 
@@ -966,7 +966,7 @@ nl命令在linux系统中用来计算文件中行号。nl 可以将输出的文�
 
 -p 在逻辑定界符处不重新开始计算。
 
-#### nl常用参数示例
+####  nl常用参数示例
 
 ```bash
 $ nl test.txt
@@ -999,20 +999,20 @@ $ nl test.txt
 
 ```
 
-### ps
+###  ps
 
-#### ps介绍
+####  ps介绍
 
 > The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
 >
 > ps实用程序显示标题行，其后是包含有关具有控制终端的所有进程的信息的行。
 
-#### ps参数格式
+####  ps参数格式
 
 ` ps [-AaCcEefhjlMmrSTvwXx] [-O fmt | -o fmt] [-G gid[,gid...]] [-g grp[,grp...]] [-u uid[,uid...]] [-p pid[,pid...]] [-t tty[,tty...]] [-U user[,user...]]
      ps [-L]`
 
-#### ps命令参数
+####  ps命令参数
 
 a 显示所有进程
 
@@ -1048,7 +1048,7 @@ u 指定用户的所有进程
 
 --width<字符数> 每页显示的字符数
 
-#### ps常用参数示例
+####  ps常用参数示例
 
 ```bash
 #查看所有进程
@@ -1058,15 +1058,15 @@ $ps -ef
 
 ```
 
-### kill&killall
+###  kill&killall
 
-#### kill介绍
+####  kill介绍
 
 > The  command kill sends the specified signal to the specified process or process group.  If no signal is specified, the TERM signal is sent.  The TERM signal will kill processes which do not catch this signal.  For other processes, it may be necessary to use the KILL (9) signal, since this signal cannot be caught.
 >
 > 命令kill将指定的信号发送到指定的进程或进程组。 如果未指定信号，则发送TERM信号。 TERM信号将杀死不捕获该信号的进程。 对于其他过程，可能需要使用KILL（9）信号，因为无法捕获该信号。
 
-#### kill参数格式
+####  kill参数格式
 
 ```
 kill [-s signal|-p] [-q sigval] [-a] [--] pid...
@@ -1074,7 +1074,7 @@ kill -l [signal]
 
 ```
 
-#### kill命令参数
+####  kill命令参数
 
 -l 信号，若果不加信号的编号参数，则使用“-l”参数会列出全部的信号名称
 
@@ -1086,7 +1086,7 @@ kill -l [signal]
 
 -u 指定用户 
 
-#### kill常用参数示例
+####  kill常用参数示例
 
 ```bash
 #查看当前系统信号
@@ -1107,7 +1107,7 @@ $ kill -l
 
 ```
 
-##### 解释
+#### # 解释
 
 HUP    1    终端断线
 INT     2    中断（同 Ctrl + C）
@@ -1125,9 +1125,9 @@ kill -9 是我们使用的最多的信号，其实这种方式一点也不优雅
 
 ## Linux进阶指令
 
-###find
+### find
 
-#### find介绍
+####  find介绍
 
 >The find utility recursively descends the directory tree for each path listed, evaluating an expression (composed of the ``primaries'' and ``operands'' listed below) in terms of each file in the tree.
 >
@@ -1135,12 +1135,12 @@ kill -9 是我们使用的最多的信号，其实这种方式一点也不优雅
 
 **这个命令使用频率极高，如果对这个命令了解很透彻，在日常工作中可以事半功倍。这个命令的参数较多，常用的参数我会在下面常用参数示例讲清楚**
 
-#### find参数格式
+####  find参数格式
 
 `find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
  find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]`
 
-#### find命令参数
+####  find命令参数
 
 -print： find命令将匹配的文件输出到标准输出。 
 
@@ -1202,7 +1202,7 @@ kill -9 是我们使用的最多的信号，其实这种方式一点也不优雅
 
 -mtime n 查找系统中最后n*24小时被改变文件数据的文件
 
-#### find常用参数示例
+####  find常用参数示例
 
 **-name参数常用参数示例** 查找/user目录下所有以.log结尾的文件
 
@@ -1222,9 +1222,9 @@ $find /home/midou/logs// -mtime +30 -name "*.log.gz" -exec rm -rf {} \;
 
 &emsp;-exec 后面可以接任何命令，你可以灵活运用，再结合到前面的-name参数，可以玩出花来。
 
-### grep
+###  grep
 
-#### grep介绍
+####  grep介绍
 
 > The grep utility searches any given input files, selecting lines that match one or more patterns.  By default, a pattern matches an input line if the regular expression (RE) in the pattern matches the input line without its trailing newline.  An empty expression matches every line.  Each input line that matches at least one of the patterns is written to the standard output
 >
@@ -1232,11 +1232,11 @@ $find /home/midou/logs// -mtime +30 -name "*.log.gz" -exec rm -rf {} \;
 
 &emsp;这是个我每天都会用到的命令，我是做基础服务的，用我服务的人不免会遇到问题，这时候我就去要去看日志了，日志都是G级别的，当然不能用vim打开去搜索，会把系统挂掉，vim是全部文档加载到内存。这时候就需要使用grep命令去根据一些关键信息匹配查找了。（当然有些同学可能会说，既然经常查日志的话，就不能把日志接入到ElasticSearch这种可搜索的组建中，很好，用技术去解决实际问题。我们也是这样做的，但总免不了还是会去服务器上查一下日志，学会这个命令没错的）
 
-#### grep参数格式
+####  grep参数格式
 
 `grep [-abcdDEFGHhIiJLlmnOopqRSsUVvwxZ] [-A num] [-B num] [-C[num]] [-e pattern] [-f file] [--binary-files=value] [--color[=when]] [--colour[=when]][--context[=num]] [--label] [--line-buffered] [--null] [pattern] [file ...]`
 
-#### grep命令参数
+####  grep命令参数
 
 -a  --text  不要忽略二进制的数据。  
 
@@ -1290,7 +1290,7 @@ $find /home/midou/logs// -mtime +30 -name "*.log.gz" -exec rm -rf {} \;
 
 -y  此参数的效果和指定“-i”参数相同。
 
-#### grep常用参数示例
+####  grep常用参数示例
 
 ```bash
 $grep '20:[1-5][0-9]:' *.log  #匹配当前目录下搜索log日志中，20点的日志
@@ -1305,9 +1305,9 @@ $grep 'ab|bc' *.log  #支持|语法，匹配含有ab或者bc的文本行
 
 &emsp;掌握grep的常用参数，会让你查找日志或者内容非常轻松。特别是当你数据量很大的时候，没办法使用vi或者vim打开的情况下。
 
-### cut
+###  cut
 
-#### cut介绍
+####  cut介绍
 
 &emsp;这个命令对我来说很有故事，当时我在学完C语言，简单了解了些linux上的基本命令，有次实习面试，面试官问我linux系统用过么，我斩钉截铁的说用过，面试官简单的用vim写了一行hello world。对我说，你怎样通过linux命令吧这个文本里面的hello world搞成十行，并且取出每一列的第七个字符。
 
@@ -1334,13 +1334,13 @@ w
 >
 >cut实用程序从每个文件中剪切出每行的选定部分（由列表指定），并将它们写入标准输出。 如果未指定文件参数，或者文件参数为单破折号（-），则从标准输入中读取内容。 列表指定的项目可以是列位置，也可以是由特殊字符分隔的字段。 列编号从1开始。
 
-#### cut参数格式
+####  cut参数格式
 
 `cut -b list [-n] [file ...]
      cut -c list [file ...]
      cut -f list [-d delim] [-s] [file ...]`
 
-#### cut命令参数
+####  cut命令参数
 
 -b：仅显示行中指定直接范围的内容；
 
@@ -1356,7 +1356,7 @@ w
 
 --out-delimiter=<字段分隔符>：指定输出内容是的字段分割符；
 
-#### cut常用参数示例
+####  cut常用参数示例
 
 ```bash
 $cut -c-10 tmp.txt  #cut tmp.txt文件的前10列
@@ -1365,19 +1365,19 @@ $cut -c3- tmp.txt  #cut tmp.txt文件的第3到结尾列
 
 ```
 
-### diff
+###  diff
 
-#### diff介绍
+####  diff介绍
 
 > Compare files line by line.
 >
 > 比较两个文件的不同
 
-####diff参数格式
+#### diff参数格式
 
 `  diff [OPTION]... FILES`
 
-#### diff命令参数
+####  diff命令参数
 
 -b或--ignore-space-change 不检查空格字符的不同。
 
@@ -1437,20 +1437,20 @@ $cut -c3- tmp.txt  #cut tmp.txt文件的第3到结尾列
 
 -y或--side-by-side 以并列的方式显示文件的异同之处。
 
-#### diff常用参数示例
+####  diff常用参数示例
 
 ```bash
 $ diff testA.txt testB.txt
 
 ```
 
-### tar&gzip
+###  tar&gzip
 
-#### tar介绍
+####  tar介绍
 
 用来压缩和解压文件。tar本身不具有压缩功能。他是调用压缩功能实现的 
 
-#### tar参数格式
+####  tar参数格式
 
 ```bash
      tar [bundled-flags <args>] [<file> | <pattern> ...]
@@ -1460,7 +1460,7 @@ $ diff testA.txt testB.txt
 
 ```
 
-#### tar命令参数
+####  tar命令参数
 
 -A 新增压缩文件到已存在的压缩
 
@@ -1500,7 +1500,7 @@ $ diff testA.txt testB.txt
 
 -f 指定压缩文件
 
-#### tar常用参数示例
+####  tar常用参数示例
 
 ```bash
 #打包  tar -cvf 包名  文件名
@@ -1514,19 +1514,19 @@ $tar -xzvf test.tgz
 
 ```
 
-### du
+###  du
 
-#### du介绍
+####  du介绍
 
 >The du utility displays the file system block usage for each file argument and for each directory in the file hierarchy rooted in each directory argument.If no file is specified, the block usage of the hierarchy rooted in the current directory is displayed.
 >
 >du实用程序显示每个文件自变量以及以每个目录自变量为根的文件层次结构中每个目录的文件系统块使用情况。如果未指定文件，则显示以当前目录为根的层次结构的块使用情况。
 
-#### du参数格式
+####  du参数格式
 
 ` du [-H | -L | -P] [-a | -s | -d depth] [-c] [-h | -k | -m | -g] [-x] [-I mask] [file ...]`
 
-#### du命令参数
+####  du命令参数
 
 -a或-all 显示目录中个别文件的大小。  
 
@@ -1558,7 +1558,7 @@ $tar -xzvf test.tgz
 
 -l或--count-links  重复计算硬件链接的文件。 
 
-#### du常用参数示例
+####  du常用参数示例
 
 ```bash
 #查看指定文件大小
@@ -1574,19 +1574,19 @@ $du -ah /
 
 ```
 
-### df
+###  df
 
-#### df介绍
+####  df介绍
 
 > The df utility displays statistics about the amount of free disk space on the specified filesystem or on the filesystem of which file is a part.  Values are displayed in 512-byte per block counts.  If neither a file or a filesystem operand is specified, statistics for all mounted filesystems are displayed (sub-ject to the -t option below).
 >
 > df实用程序显示有关指定文件系统或其中一部分文件的文件系统上的可用磁盘空间量的统计信息。 值以每块计数512字节的形式显示。 如果未指定文件或文件系统操作数，则将显示所有已挂载文件系统的统计信息（受下面的-t选项约束）。
 
-#### df参数格式
+####  df参数格式
 
 ` df [-b | -h | -H | -k | -m | -g | -P] [-ailn] [-t] [-T type] [file | filesystem ...]`
 
-#### df命令参数
+####  df命令参数
 
 -a 全部文件系统列表
 
@@ -1616,7 +1616,7 @@ $du -ah /
 
 -x<文件系统类型> 不显示选定文件系统的磁盘信息
 
-#### df常用参数示例
+####  df常用参数示例
 
 ```bash
 #展示当前系统磁盘使用情况，以可读的方式展示
@@ -1632,9 +1632,9 @@ map auto_home    0Bi    0Bi    0Bi   100%       0                   0  100%   /h
 
 ```
 
-### lsof
+###  lsof
 
-#### lsof介绍
+####  lsof介绍
 
 lsof（list open files）是一个列出当前系统打开文件的工具。(在linux环境下，任何事物都以文件的形式存在)
 
@@ -1660,13 +1660,13 @@ lsof可以打开的文件包括：
 
 **这个命令在我日常工作中使用场景很多，使用范围很广。**
 
-#### lsof参数格式
+####  lsof参数格式
 
 `lsof  [ -?abChKlnNOPRtUvVX ] [ -A A ] [ -c c ] [ +c c ] [ +|-d d ] [ +|-D D ] [ +|-e s ] [ +|-E ] [ +|-f [cfgGn] ] [ -F [f] ] [ -g [s] ] [ -i [i] ] [ -k k
        ] [ +|-L [l] ] [ +|-m m ] [ +|-M ] [ -o [o] ] [ -p s ] [ +|-r [t[m<fmt>]] ] [ -s [p:s] ] [ -S [t] ] [ -T [t] ] [ -u s ] [ +|-w ] [ -x [fl] ] [ -z [z] ]  [
        -Z [Z] ] [ -- ] [names]`
 
-#### lsof命令参数
+####  lsof命令参数
 
 -a 列出打开文件存在的进程
 
@@ -1688,7 +1688,7 @@ lsof可以打开的文件包括：
 
 -u 列出UID号进程详情
 
-#### lsof常用参数示例
+####  lsof常用参数示例
 
 **lsof输出各列信息的意义如下：**
 
@@ -1716,11 +1716,11 @@ $lsof -u username
 #列出某个程序进程所打开的文件信息
 $lsof -c java
 #列出除了某个用户外的被打开的文件信息
-$lsof -u ^midou
+$lsof -u #### midou
 #通过某个进程号显示该进行打开的文件
 $lsof -p pid
 #列出除了某个进程号，其他进程号所打开的文件信息
-$lsof -p ^pid
+$lsof -p #### pid
 #列出所有的网络连接
 $lsof -i
 #列出所有tcp 网络连接信息
@@ -1740,22 +1740,22 @@ $lsof -d 0-2
 
 ```
 
-#### ping
+####  ping
 
-#### ping介绍
+####  ping介绍
 
 > send ICMP ECHO_REQUEST packets to network hosts
 >
 > 将ICMP ECHO_REQUEST数据包发送到网络主机
 
-#### ping参数格式
+####  ping参数格式
 
 ```bash
  ping [-AaCDdfnoQqRrv] [-b boundif] [-c count] [-G sweepmaxsize] [-g sweepminsize] [-h sweepincrsize] [-i wait] [-k trafficclass] [-K netservicetype][-l preload] [-M mask | time] [-m ttl] [-P policy] [-p pattern] [-S src_addr] [-s packetsize] [-t timeout] [-W waittime] [-z tos] [--apple-connect][--apple-time] host
 
 ```
 
-#### ping命令参数
+####  ping命令参数
 
 -d 使用Socket的SO_DEBUG功能。
 
@@ -1787,7 +1787,7 @@ $lsof -d 0-2
 
 **ping，在日常工作中都是简单的用来测试本机与其他机器之间的网络通信，当然如果了解这些参数的话，会有更多的用法。**
 
-#### ping命令参数
+####  ping命令参数
 
 ```bash
 #检测网络情况
@@ -1802,15 +1802,15 @@ $ping -c 10 -i 0.5 host
 
 ```
 
-### netstat
+###  netstat
 
-#### netstat介绍
+####  netstat介绍
 
 > The netstat command symbolically displays the contents of various network-related data structures.  There are a number of output formats, depending on the options for the information presented.  The first form of the command displays a list of active sockets for each protocol.  The second form presents the contents of one of the other network data structures according to the option selected. Using the third form, with a wait interval specified, netstat will continuously display the information regarding packet traffic on the configured network interfaces.  The fourth form displays statistics for the specified protocol or address family. If a wait interval is specified, the protocol information over the last interval seconds will be displayed.  The fifth form displays per-interface statistics for the specified protocol or address family.  The sixth form displays mbuf(9) statistics.  The seventh form displays routing table for the speci-fied address family.  The eighth form displays routing statistics.
 >
 > netstat命令以符号形式显示各种与网络相关的数据结构的内容。有多种输出格式，具体取决于显示信息的选项。该命令的第一种形式显示每个协议的活动套接字列表。第二种形式根据选择的选项显示其他网络数据结构之一的内容。使用第三种形式，并指定等待间隔，netstat将在配置的网络接口上连续显示有关数据包流量的信息。第四种形式显示指定协议或地址族的统计信息。如果指定了等待间隔，将显示最近间隔秒的协议信息。第五种形式显示指定协议或地址族的每个接口的统计信息。第六种形式显示mbuf（9）统计信息。第七种形式显示指定地址系列的路由表。第八种形式显示路由统计信息。
 
-#### netstat参数格式
+####  netstat参数格式
 
 ```bash
      netstat [-AaLlnW] [-f address_family | -p protocol]
@@ -1826,7 +1826,7 @@ $ping -c 10 -i 0.5 host
 
 
 
-####netstat命令参数
+#### netstat命令参数
 
 -a或–all 显示所有连线中的Socket。
 
@@ -1876,7 +1876,7 @@ $ping -c 10 -i 0.5 host
 
 –ip或–inet 此参数的效果和指定”-A inet”参数相同。
 
-#### netstat常用参数示例
+####  netstat常用参数示例
 
 ```bash
 #列出所有端口使用情况
@@ -1904,15 +1904,15 @@ $netstat -pt
 
 ```
 
-### ifconfig
+###  ifconfig
 
-#### ifconfig介绍
+####  ifconfig介绍
 
 > Ifconfig is used to configure the kernel-resident network interfaces.  It is used at boot time to set up interfaces as necessary.  After that, it is usually only needed when debugging or when system tuning is needed.
 >
 > Ifconfig用于配置内核驻留的网络接口。 它在引导时用于根据需要设置接口。 之后，通常仅在调试或需要系统调整时才需要它。
 
-#### ifconfig参数格式
+####  ifconfig参数格式
 
 ```bash
  ifconfig [-v] [-a] [-s] [interface]
@@ -1920,7 +1920,7 @@ $netstat -pt
 
 ```
 
-#### ifconfig命令参数
+####  ifconfig命令参数
 
 up 启动指定网络设备/网卡。
 
@@ -1960,7 +1960,7 @@ address 为网卡设置IPv4地址
 
 txqueuelen<长度> 为网卡设置传输列队的长度
 
-#### ifconfig常用参数示例
+####  ifconfig常用参数示例
 
 ```bash
 #显示网络设备信息
@@ -1978,7 +1978,7 @@ $ifconfig eth0 mtu 1500
 
 ```
 
-##### 解释
+#### # 解释
 
 - eth0 表示第一块网卡， 其中 HWaddr 表示网卡的物理地址
 
@@ -1996,15 +1996,15 @@ $ifconfig eth0 mtu 1500
 
   > 第七行：接收、发送数据字节数统计信息。
 
-### hostname
+###  hostname
 
-####hostname介绍
+#### hostname介绍
 
 > Hostname is used to display the system's DNS name, and to display or set its hostname or NIS domain name.
 >
 > 主机名用于显示系统的DNS名称，并显示或设置其主机名或NIS域名。
 
-#### hostname参数格式
+####  hostname参数格式
 
 ```bash
 hostname [-a|--alias] [-d|--domain] [-f|--fqdn|--long] [-A|--all-fqdns] [-i|--ip-address] [-I|--all-ip-addresses] [-s|--short] [-y|--yp|--nis]
@@ -2013,7 +2013,7 @@ hostname [-h|--help] [-V|--version]
 
 ```
 
-#### hostname命令参数
+####  hostname命令参数
 
 ```
 -v：详细信息模式；
@@ -2026,7 +2026,7 @@ hostname [-h|--help] [-V|--version]
 
 ```
 
-#### hostname常用参数示例
+####  hostname常用参数示例
 
 ```bash
 #查看主机ip,这个命令我最推荐的一个用法就是查看主机ip，之前我一直用ifconfig
@@ -2034,15 +2034,15 @@ $hostname -i
 
 ```
 
-### traceroute
+###  traceroute
 
-#### traceroute介绍
+####  traceroute介绍
 
 > traceroute  tracks  the  route  packets  taken  from an IP network on their way to a given host. It utilizes the IP protocol's time to live (TTL) field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to the host.
 >
 > traceroute跟踪从IP网络获取到给定主机的路由信息包。 它利用IP协议的生存时间（TTL）字段并尝试从每个网关到主机的路径引发ICMP TIME_EXCEEDED响应。
 
-#### traceroute参数格式
+####  traceroute参数格式
 
 ```
  traceroute [-46dFITUnreAV] [-f first_ttl] [-g gate,...]
@@ -2055,7 +2055,7 @@ $hostname -i
 
 ```
 
-#### traceroute命令参数
+####  traceroute命令参数
 
 -d 使用Socket层级的排错功能。
 
@@ -2087,7 +2087,7 @@ $hostname -i
 
 -x 开启或关闭数据包的正确性检验。
 
-#### traceroute常用参数示例
+####  traceroute常用参数示例
 
 ```bash
 #traceroute 一下百度，看下数据包的路由途径
@@ -2117,21 +2117,21 @@ traceroute to www.baidu.com (183.232.231.172), 64 hops max, 52 byte packets
 
 ```
 
-##### 解释
+#### # 解释
 
 记录按序列号从1开始，每行纪录就是一跳 ，每跳表示一个网关，我们看到每行有三个时间，单位是 ms，其实就是-q的默认参数。探测数据包向每个网关发送三个数据包后，网关响应后返回的时间；如果您用 traceroute -q 10 www.baidu.com，表示向每个网关发送10个数据包。
 
 有时我们traceroute 一台主机时，会看到有一些行是以星号表示的。出现这样的情况，可能是防火墙封掉了ICMP的返回信息，所以我们得不到什么相关的数据包返回数据。
 
-### route
+###  route
 
-#### route介绍
+####  route介绍
 
 > Route  manipulates the kernel's IP routing tables.  Its primary use is to set up static routes to specific hosts or networks via an interface after it has been config‐ured with the ifconfig(8) program.
 >
 > Route操纵内核的IP路由表。 它的主要用途是在使用ifconfig（8）程序对其进行配置后，通过接口设置到特定主机或网络的静态路由。
 
-#### route参数格式
+####  route参数格式
 
 ```
 route [-CFvnNee] [-A family |-4|-6]
@@ -2142,7 +2142,7 @@ route  [-v] [-A family |-4|-6] del [-net|-host] target [gw Gw] [netmask Nm] [met
 
 ```
 
-#### route命令参数
+####  route命令参数
 
 -c 显示更多信息
 
@@ -2166,7 +2166,7 @@ del:删除一条路由。
 
 -host:目标地址是一个主机。
 
-#### route常用参数示例
+####  route常用参数示例
 
 ```bash
 #显示当前路由
@@ -2181,19 +2181,19 @@ $route add default gw 192.168.0.100
 
 ```
 
-### wget
+###  wget
 
-#### wget介绍
+####  wget介绍
 
 > GNU Wget is a free utility for non-interactive download of files from the Web.  It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 >
 > GNU Wget是一个免费实用程序，用于从Web非交互式下载文件。 它支持HTTP，HTTPS和FTP协议，以及通过HTTP代理进行检索。
 
-#### wget参数格式
+####  wget参数格式
 
 ` wget [option]... [URL]...`
 
-#### wget命令参数
+####  wget命令参数
 
 ```
 启动：
@@ -2340,7 +2340,7 @@ FTP 选项：
 
 **参数有点多，没关系，常用的掌握，其他的用的时候再查**
 
-#### wget常用参数示例
+####  wget常用参数示例
 
 ```bash
 #下载某个文件，wget 文件的地址
@@ -2348,19 +2348,19 @@ $wget https://blog.csdn.net/qq_38646470
 
 ```
 
-### vmstat
+###  vmstat
 
-#### vmstat介绍
+####  vmstat介绍
 
 > vmstat reports information about processes, memory, paging, block IO, traps, disks and cpu activity.
 >
 > vmstat报告有关进程，内存，页面调度，块IO，陷阱，磁盘和cpu活动的信息。
 
-#### vmstat参数格式
+####  vmstat参数格式
 
 `vmstat [options] [delay [count]]`
 
-#### vmstat命令参数
+####  vmstat命令参数
 
 -a：显示活跃和非活跃内存
 
@@ -2382,7 +2382,7 @@ count：刷新次数。如果不指定刷新次数，但指定了刷新时间间
 
 -S：使用指定单位显示。参数有 k 、K 、m 、M ，分别代表1000、1024、1000000、1048576字节（byte）。默认单位为K（1024 bytes）
 
-#### vmstat常用参数示例
+####  vmstat常用参数示例
 
 ```bash
 #显示虚拟内存情况
@@ -2393,7 +2393,7 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 
 ```
 
-##### 解释
+#### # 解释
 
 Procs（进程）：
 
@@ -2454,19 +2454,19 @@ $vmstat -m
 
 ```
 
-### free
+###  free
 
-#### free介绍
+####  free介绍
 
 > free  displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. 
 >
 > free显示系统中可用和可用的物理内存和交换内存的总量，以及内核使用的缓冲区和高速缓存。
 
-#### free参数格式
+####  free参数格式
 
 `free [options]`
 
-#### free命令参数
+####  free命令参数
 
 -b 以Byte为单位显示内存使用情况。 
 
@@ -2482,7 +2482,7 @@ $vmstat -m
 
 -t 显示内存总和列。
 
-#### free常用参数示例
+####  free常用参数示例
 
 ```bash
 #显示内存使用情况
@@ -2496,7 +2496,7 @@ Swap:            0B          0B          0B
 
 ```
 
-##### 解释
+#### # 解释
 
 total:总计物理内存的大小。
 
@@ -2520,9 +2520,9 @@ $ free -s 5
 
 ```
 
-### top
+###  top
 
-#### top介绍
+####  top介绍
 
 > The  top  program provides a dynamic real-time view of a running system.  It can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel.  The types of system summary information shown and the types, order and size of information displayed for  processes  are  all  user configurable and that configuration can be made persistent across restarts.
 >        The  program  provides a limited interactive interface for process manipulation as well as a much more extensive interface for personal configuration  --  encompassing every aspect of its operation.  And while top is referred to throughout this document, you are free to name the program anything you wish.  That new name, possibly  an alias, will then be reflected on top's display and used when reading and writing a configuration file.
@@ -2530,11 +2530,11 @@ $ free -s 5
 > ​        top程序提供正在运行的系统的动态实时视图。 它可以显示系统摘要信息以及Linux内核当前正在管理的进程或线程的列表。 所显示的系统摘要信息的类型以及为进程显示的信息的类型，顺序和大小都是用户可配置的，并且可以使配置在重新启动后保持不变。
 > ​        该程序为流程操作提供了一个有限的交互式界面，并为个人配置提供了更为广泛的界面-涵盖了其操作的各个方面。 尽管在本文档中始终引用top，但是您可以随意为程序命名。 然后，该新名称（可能是别名）将反映在顶部的显示屏上，并在读写配置文件时使用。
 
-#### top参数格式
+####  top参数格式
 
 `top -hv|-bcHiOSs -d secs -n max -u|U user -p pid -o fld -w [cols]`
 
-#### top命令参数
+####  top命令参数
 
 -b 批处理
 
@@ -2554,7 +2554,7 @@ $ free -s 5
 
 -n<次数> 循环显示的次数
 
-#### top常用参数示例
+####  top常用参数示例
 
 ```bash
 #top
@@ -2577,7 +2577,7 @@ KiB Swap:        0 total,        0 free,        0 used. 60909608 avail Mem
 
 ```
 
-##### 解释
+#### # 解释
 
 **第一行，任务队列信息，同 uptime 命令的执行结果，具体参数说明情况如下：**
 
@@ -2659,17 +2659,17 @@ TIME+ — 进程使用的CPU时间总计，单位1/100秒
 
 COMMAND — 进程名称（命令名/命令行）
 
-### sar
+###  sar
 
-#### sar介绍
+####  sar介绍
 
 > sar（System Activity Reporter系统活动情况报告）是目前 Linux 上最为全面的系统性能分析工具之一，可以从多方面对系统的活动进行报告，包括：文件的读写情况、 系统调用的使用情况、磁盘I/O、CPU效率、内存使用状况、进程活动及IPC有关的活动等。
 
-####sar参数格式
+#### sar参数格式
 
 `sar [options] [-A] [-o file] t [n]`
 
-#### sar命令参数
+####  sar命令参数
 
 -A：所有报告的总和
 

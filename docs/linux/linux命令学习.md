@@ -4,7 +4,7 @@
 >
 > 没有什么比每天进步一点点更重要了
 
-本文已收录到我的github：
+本文已收录到我的github:[https://github.com/midou-tech/articles/tree/master/docs/linux](https://github.com/midou-tech/articles/tree/master/docs/linux) ，欢迎star和issues。
 
 ### 序言
 

@@ -24,6 +24,10 @@
 - 发送到邮箱：2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com
 - 微信发送，扫描下面二维码，公众号里面有作者微信号。
 
+### 历史文章：
+
+[学习linux命令，看这篇两万多字的linux命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g)
+
 
 
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`

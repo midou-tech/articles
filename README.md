@@ -20,9 +20,9 @@
 
 `如果有人想发文章，欢迎投稿或推荐你的项目。提供以下几种方式投稿`
 
-- 去我的github提交 issue。https://github.com/midou-tech/articles
-- 发送到邮箱：2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com
-- 微信发送，扫描下面二维码，公众号里面有作者微信号。
+- 去我的github提交 issue: https://github.com/midou-tech/articles
+- 发送到邮箱: 2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com
+- 微信发送: 扫描下面二维码，公众号里面有作者微信号。
 
 ### 历史文章：
 

@@ -32,7 +32,7 @@
 
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 
-<p><image src="https://tva1.sinaimg.cn/large/006tNbRwly1gaf5ti5vvsj30cw0cu0t9.jpg" align="middle"></image></p>
+<p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1gaf5ti5vvsj30cw0cu0t9.jpg" ></image></p>
 
 
 

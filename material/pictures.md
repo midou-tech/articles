@@ -2,7 +2,9 @@
 >
 > 没有什么比你每天进步一点点更重要的了
 
+<p align="center">本文已经收录至我的github,欢迎大家踊跃star 和 issues。</p>
 
+<p align="center"><a  href="https://github.com/midou-tech/articles" target="_blank">https://github.com/midou-tech/articles</a></p>
 
 `我要写公众号难免会用到很多素材，那天我想找个图片作为文章封面，找了好多网站，要么没有版权，要么需要付费。找了好久找到下面这些免费、高清、无版权的图片素材网站。`
 
@@ -219,6 +221,8 @@
 - `去我的github提交 issue:` https://github.com/midou-tech/articles
 - `发送到邮箱: 2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com`
 - `微信发送: 扫描下面二维码，公众号里面有作者微信号。`
+
+**公众号还不能留言，有任何疑问可以发送邮件或者微信咨询我**
 
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 

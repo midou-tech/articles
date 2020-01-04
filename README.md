@@ -32,11 +32,8 @@
 
 - `微信发送: 扫描下面二维码，公众号里面有作者微信号。`
 
-  
-
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 
-<p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1gaf5ti5vvsj30cw0cu0t9.jpg" ></image></p>
-
+<p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1gag8xwf2awj30by0byq3q.jpg" ></image></p>
 
 > 我喜欢那些闪光的东西，比如冬日的雪花，天上的星星，还有你发光的眼睛。

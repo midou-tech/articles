@@ -20,11 +20,19 @@
 
 ### 历史文章：
 
-[学习linux命令，看这篇两万多字的linux命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g)
+[学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+
+[HTTP就是这么简单](https://mp.weixin.qq.com/s/V0_fcjr9t-lyqy2qyg6MWw)
+
+[Redis基础](https://mp.weixin.qq.com/s/OZRGLGk3MkdkwaNliITTUQ)
+
+[顶级程序员工具集](https://mp.weixin.qq.com/s/Sel5ySSh0YJXdQ6KExQxyw)
+
+[二十多个免费高清图片素材网站送给你](https://mp.weixin.qq.com/s/pcMWdKh9cFMS75sAxgCrWg)
 
 
 
-`如果有人想发文章，欢迎投稿或推荐你的项目。提供以下几种方式投稿`
+`如果有人想发文章，我这里提供有偿征文(具体细则微信联系)，欢迎投稿或推荐你的项目。提供以下几种方式投稿`
 
 - `去我的github提交 issue:` https://github.com/midou-tech/articles
 
@@ -34,6 +42,6 @@
 
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 
-<p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1gag8xwf2awj30by0byq3q.jpg" ></image></p>
+<p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1galsp9a07kj30p00dwae3.jpg" ></image></p>
 
 > 我喜欢那些闪光的东西，比如冬日的雪花，天上的星星，还有你发光的眼睛。

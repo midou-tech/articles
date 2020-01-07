@@ -16,7 +16,6 @@
 ![C语言详细知识点脑图](https://tva1.sinaimg.cn/large/006tNbRwly1gaiq8nycm4j30u01dlaqs.jpg)
 
 <p><h4   style="color:green;text-align:center">点关注，不迷路！！！</h4></p>
-
 &emsp;`敲黑板、划重点，看好啦，以下都是必考点`
 
 ###填空题
@@ -76,7 +75,6 @@
 4.如果嵌套了结构体的情况，嵌套的结构体对齐到自己的最大对齐数的整数倍处，结构体的整体大小就是所有最大对齐数（含嵌套结构体的对齐数）的整数倍。
 
 <p><h4   style="color:red;text-align:center">求点赞👍  求关注❤️ </h4></p>
-
 <p><h4   style="color:blue;text-align:center">「转发」是明目张胆的喜欢，「在看」是偷偷摸摸的爱。</h4></p>
 `有偿征文(具体细则公众号回复征文)，欢迎投稿或推荐你的项目。提供以下几种方式投稿`
 

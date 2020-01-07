@@ -41,5 +41,4 @@
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 
 <p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1galsp9a07kj30p00dwae3.jpg" ></image></p>
-
 > 我喜欢那些闪光的东西，比如冬日的雪花，天上的星星，还有你发光的眼睛。

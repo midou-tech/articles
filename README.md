@@ -28,6 +28,10 @@
 
 [二十多个免费高清图片素材网站送给你](https://mp.weixin.qq.com/s/pcMWdKh9cFMS75sAxgCrWg)
 
+[什么是消息队列？](https://mp.weixin.qq.com/s/NuHIVl5SjQ0_v1EPKnT9Vw)
+
+[初学者该如何选择一门编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
+
 
 
 `如果有人想发文章，我这里提供有偿征文(具体细则微信联系)，欢迎投稿或推荐你的项目。提供以下几种方式投稿`

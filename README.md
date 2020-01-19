@@ -12,25 +12,95 @@
 
 &emsp;**我的所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。大家在看博文的过程中遇到任何问题或者生活工作上遇到问题都可以给我发mail：2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com 我会每周三和周六的时候回复大家的邮件问题(工作繁忙，自己也需要沉淀，多理解下)。**
 
-![写作框架图](https://tva1.sinaimg.cn/large/006tNbRwly1ga5xpxz3mpj30ku1ma43k.jpg)
+![写作框架图](https://tva1.sinaimg.cn/large/006tNbRwly1gb2bxipu4aj30ku1maaf7.jpg)
 
 
 
-### 历史文章：
+## 历史文章分类：
 
-[学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+### 程序人生
 
-[HTTP就是这么简单](https://mp.weixin.qq.com/s/V0_fcjr9t-lyqy2qyg6MWw)
+[初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
 
-[Redis基础](https://mp.weixin.qq.com/s/OZRGLGk3MkdkwaNliITTUQ)
+[程序员成神之路，一年挖坑，五年扛旗，十年成神](https://mp.weixin.qq.com/s/PNYa9ocj1hBYjIko-JGq_w)
+
+[“妈，我今年过年不回家了...”](https://mp.weixin.qq.com/s/CiAGpmLsiPxeE8CyeBU4gw)
+
+
+
+### 工具集
 
 [顶级程序员工具集](https://mp.weixin.qq.com/s/Sel5ySSh0YJXdQ6KExQxyw)
 
+
+
+### 素材
+
 [二十多个免费高清图片素材网站送给你](https://mp.weixin.qq.com/s/pcMWdKh9cFMS75sAxgCrWg)
+
+
+
+### linux
+
+[学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+
+
+
+### C&C++
+
+[带你重新认识指针(上)](https://mp.weixin.qq.com/s/tdyCTqH9WYMrS0HmRtVPng)
+
+[带你重新认识指针(下)](https://mp.weixin.qq.com/s/-C_PHEk0ZUf7JUN0Bd80rQ)
+
+
+
+### 密码学
+
+[聊聊密码学中的DES算法](https://mp.weixin.qq.com/s/tpupz8T5Ei-xB2pKdfKQQQ)
+
+[懂点密码学](https://mp.weixin.qq.com/s/kcvm79m1-3SflYUo56idsg)
+
+
+
+### Redis
+
+[Redis基础](https://mp.weixin.qq.com/s/OZRGLGk3MkdkwaNliITTUQ)
+
+[Redis-缓存雪崩、击穿、穿透](https://mp.weixin.qq.com/s/_sYgM2YrUKwt89XgKyiuCw)
+
+
+
+### 消息队列
 
 [什么是消息队列？](https://mp.weixin.qq.com/s/NuHIVl5SjQ0_v1EPKnT9Vw)
 
-[初学者该如何选择一门编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
+[带你了解什么是Push消息推送](https://mp.weixin.qq.com/s/UZgVEL7nSeXGK2f-YnRfyQ)
+
+
+
+### ZooKeeper
+
+[什么是ZooKeeper？](https://mp.weixin.qq.com/s/og-6iqPUOluz6yDtlmtpoA)
+
+
+
+### HTTP
+
+[HTTP就是这么简单](https://mp.weixin.qq.com/s/V0_fcjr9t-lyqy2qyg6MWw)
+
+
+
+### Docker
+
+[为什么需要Docker？](https://mp.weixin.qq.com/s/VvKNWSgePxNWMU66NcUy6w)
+
+
+
+
+
+
+
+
 
 
 
@@ -38,11 +108,13 @@
 
 - `去我的github提交 issue:` https://github.com/midou-tech/articles
 
-- `发送到邮箱: 2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com`
+- `发送到邮箱:` 2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com
 
-- `微信发送: 扫描下面二维码，公众号里面有作者微信号。`
+- `微信发送: `扫描下面二维码，公众号里面有作者微信号。
 
 `精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。`
 
 <p align="center"><image src="https://tva1.sinaimg.cn/large/006tNbRwly1galsp9a07kj30p00dwae3.jpg" ></image></p>
+
+
 > 我喜欢那些闪光的东西，比如冬日的雪花，天上的星星，还有你发光的眼睛。

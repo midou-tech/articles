@@ -163,3 +163,9 @@ printf("%d\n",arr[6]);
 
 往期精彩回顾：
 
+- [初学编程，该如何选择编程语言？](http://mp.weixin.qq.com/s?__biz=MzI5MTMxMDk1Nw==&mid=2247483745&idx=1&sn=0a6864ce6fef4efd16b514a6391c50ae&chksm=ec13dd63db6454757c4563ec214d836bf0258a87bf5be17fdcad7cc29235b402c224c4ed6323&scene=21#wechat_redirect)
+- [学习linux命令，看这篇2w多字的命令详解就够了](http://mp.weixin.qq.com/s?__biz=MzI5MTMxMDk1Nw==&mid=2247483692&idx=1&sn=8a3174f5ad83ab3ec585f13980f059f7&chksm=ec13dd2edb64543889732d7e3791791b27fc2fd7f96f4f6c85693afa9f419c2a3748bf07de30&scene=21#wechat_redirect)
+- [带你重新认识指针(上)](http://mp.weixin.qq.com/s?__biz=MzI5MTMxMDk1Nw==&mid=2247483777&idx=1&sn=51ab1db4d842edabf2be4dc142530281&chksm=ec13dd83db645495fae7ade69dcb37fc020fd4db5287cef9c27b978e35fe86704e89e2170787&scene=21#wechat_redirect)
+- [指针(下)](http://mp.weixin.qq.com/s?__biz=MzI5MTMxMDk1Nw==&mid=2247483796&idx=1&sn=edbceaf47ee3eb60b197376f6bbd1aea&chksm=ec13dd96db645480d307349adcf8b2a0384f301593a7acd7124bcf3b3c84aa1fa8530181e546&scene=21#wechat_redirect)
+
+![](https://tva1.sinaimg.cn/large/0082zybply1gc1gn6x0rkj30p00dwn02.jpg)

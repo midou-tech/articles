@@ -3,7 +3,6 @@
 <p align="center">本文已经收录至我的GitHub,欢迎大家踊跃star 和 issues。</p>
 <h4 align="center"><a  href="https://github.com/midou-tech/articles" target="_blank">https://github.com/midou-tech/articles</a></h4>
 <p><h4   style="color:red;text-align:center">点关注，不迷路！！！ </h4></p>
-
 ### 前言
 
 &emsp;我本来准备C语言章节就写个指针就ok了，在我看来C语言的精华部分就是指针了。但是有很多同学就开始在群里各种拉扯C语言的其他问题，没办法，我是龙叔嘛，想想还是整理一下，把一些重要的C语言知识点都一一更新了吧。C语言指针的内容请点击 [指针（上）](https://mp.weixin.qq.com/s/tdyCTqH9WYMrS0HmRtVPng) 和 [指针（下）](https://mp.weixin.qq.com/s/-C_PHEk0ZUf7JUN0Bd80rQ)，**记得点关注，不迷路**
@@ -160,7 +159,6 @@ printf("%d\n",arr[6]);
 ![](https://tva1.sinaimg.cn/large/0082zybply1gc0x96ukkrj30730730sn.jpg)
 
 <h4   style="color:blue;text-align:center">「转发」是明目张胆的喜欢，「在看」是偷偷摸摸的爱。</h4>
-
 往期精彩回顾：
 
 - [初学编程，该如何选择编程语言？](http://mp.weixin.qq.com/s?__biz=MzI5MTMxMDk1Nw==&mid=2247483745&idx=1&sn=0a6864ce6fef4efd16b514a6391c50ae&chksm=ec13dd63db6454757c4563ec214d836bf0258a87bf5be17fdcad7cc29235b402c224c4ed6323&scene=21#wechat_redirect)

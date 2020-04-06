@@ -4,8 +4,6 @@
 >
 > https://github.com/midou-tech/articles
 
-
-
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gd3p0nqvh8j30ra0bujs6.jpg)
 
 本来想先更新TCP的基础和TCP可靠性等问题的，但是被你们暗示了，就先更流量控制和拥塞控制了。希望龙叔讲的你能搞清楚，如果有不清楚的，可以加龙叔微信一起探讨。

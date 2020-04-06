@@ -1,8 +1,4 @@
->用心分享，共同成长
->
->没有什么比你每天进步一点点更实在了
-
-
+>多点头发，少点代码
 
 &emsp;以前都是被别人授之以鱼，尝到了鱼肉的鲜美，我学习了捕鱼之术，以后我希望我不仅能授之以鱼，同时也能授之以渔。
 
@@ -166,6 +162,6 @@
 
 # <a name="微信"></a>  <a name="公众号"></a>
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/2M8qPJibxTd7ia5HnQN4c0ZdYTNMb7ia2HqtqlF3EewJfY2AOsUFUK5Vj8Dqfp2DUjGIqknFm7Bc45ytE88bLhvdw/0?wx_fmt=gif)
+![龙跃十二](https://tva1.sinaimg.cn/large/00831rSTly1gdjy2023y3j30p00dw0tn.jpg)
 
 > 我喜欢那些闪光的东西，比如冬日的雪花，天上的星星，还有你发光的眼睛。

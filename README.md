@@ -12,15 +12,33 @@
 
 &emsp;**我的所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。大家在看博文的过程中遇到任何问题或者生活工作上遇到问题都可以给我发mail：2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com 我会每周三和周六的时候回复大家的邮件问题(工作繁忙，自己也需要沉淀，多理解下)。**
 
+<p align="center">
+  <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
+  <a href="https://juejin.im/user/5dc66109e51d45543a6fc53d/posts"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
+  <a href="https://blog.csdn.net/qq_38646470"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
+  <a href="https://www.cnblogs.com/zhonglongbo/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
+  <a href="https://my.oschina.net/u/4269462?tab=popular"><img src="https://img.shields.io/badge/oschina-开源中国-green" alt="投稿"></a>
+  <a href="https://www.jianshu.com/u/8cafb2cfb29d"><img src="https://img.shields.io/badge/jianshu-简书-critical" alt="投稿"></a>
+  <a href="https://www.zhihu.com/people/zhong-long-bo-56-97/posts"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="投稿"></a>
+</p>
+
+
+
 ![写作框架图](https://tva1.sinaimg.cn/large/006tNbRwly1gb2bxipu4aj30ku1maaf7.jpg)
-
-
 
 ## 历史文章分类：
 
 ### linux
 
 - [学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+
+### 计算机网络
+
+[TCP粘包问题](https://mp.weixin.qq.com/s/5oDim8z_xJhMKhHR9w-V3A)
+
+[为什么计算机网络需要分层架构?](https://mp.weixin.qq.com/s/5aQGwlKHkdTG4j9eMjr6pg)
+
+[计算机网络最难的问题，网络的拥塞控制](https://mp.weixin.qq.com/s/DSIYKt7qX6n0bMNrw5HA8g)
 
 
 
@@ -76,8 +94,6 @@
 
 
 
-
-
 ### 密码学系列
 
 - [聊聊密码学中的DES算法](https://mp.weixin.qq.com/s/tpupz8T5Ei-xB2pKdfKQQQ)
@@ -99,6 +115,8 @@
 ### Java
 
 - [java 程序员都需要懂的 反射！](https://mp.weixin.qq.com/s/ZSCQUQpaRK2pwcTtn8oM4A)
+
+
 
 ### 程序人生
 
@@ -145,6 +163,8 @@
 - `微信发送: `扫描下面二维码，公众号里面有作者微信号。
 
 精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。
+
+# <a name="微信"></a>  <a name="公众号"></a>
 
 ![](https://mmbiz.qpic.cn/mmbiz_gif/2M8qPJibxTd7ia5HnQN4c0ZdYTNMb7ia2HqtqlF3EewJfY2AOsUFUK5Vj8Dqfp2DUjGIqknFm7Bc45ytE88bLhvdw/0?wx_fmt=gif)
 

@@ -20,30 +20,24 @@
 
 
 
-![写作框架图](https://tva1.sinaimg.cn/large/006tNbRwly1gb2bxipu4aj30ku1maaf7.jpg)
+![写作框架图](https://tva1.sinaimg.cn/large/007S8ZIlly1gekzbtfwa9j30l10kln08.jpg)
+
+
 
 ## 历史文章分类：
 
-### linux
+### 面试
 
-- [学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
-
-### 计算机网络
-
-[TCP粘包问题](https://mp.weixin.qq.com/s/5oDim8z_xJhMKhHR9w-V3A)
-
-[为什么计算机网络需要分层架构?](https://mp.weixin.qq.com/s/5aQGwlKHkdTG4j9eMjr6pg)
-
-[计算机网络最难的问题，网络的拥塞控制](https://mp.weixin.qq.com/s/DSIYKt7qX6n0bMNrw5HA8g)
+- [学会龙叔这套面试秘诀，一套大招带走面试官](https://mp.weixin.qq.com/s/KWHVgiUYjxtGnZbhrWWz0g)
+- [当你面试“自我介绍”还在我是XXX时，看到这篇文章的同学们已经拿到了offer...](https://mp.weixin.qq.com/s/veEprCLH63gSQymEaSAdYQ)
+- [龙叔修改了几百封简历，实在忍不住了](https://mp.weixin.qq.com/s/4KxX2gr6LsAzQmOXddPgzA)
 
 
 
 ### C&C++
 
 - [带你重新认识指针(上)](https://mp.weixin.qq.com/s/tdyCTqH9WYMrS0HmRtVPng)
-
 - [带你重新认识指针(下)](https://mp.weixin.qq.com/s/-C_PHEk0ZUf7JUN0Bd80rQ)
-
 - [数组详解](https://mp.weixin.qq.com/s/JwUaBwRirnBfsdJst8Fuxg)
 
 
@@ -51,34 +45,64 @@
 ### 数据结构与算法
 
 - [数据结构你学的怎么样？为你总结了一份超全知识点思维导图](https://mp.weixin.qq.com/s/4hPweZRWFZs7eUAHZzAqPw)
-
 - [O(3N)≈O(N) O(3N)=O(N)？](https://mp.weixin.qq.com/s/ojpalODlcRK7R5Cr3b0fpw)
 
-### Redis
+
+
+### 操作系统&计算机网络
+
+#### 操作系统
+
+- [学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+
+
+
+#### 计算机网络
+
+- [三次握手、四次挥手，一个被面试官虐了千百遍的问题](https://mp.weixin.qq.com/s/3CvKDlH99_vLJ9yjA5E_GQ)
+
+- [TCP粘包问题](https://mp.weixin.qq.com/s/5oDim8z_xJhMKhHR9w-V3A)
+- [字节二面被问TCP是如何保证可靠性？我傻眼了...](https://mp.weixin.qq.com/s/ZMR0niaGItfW7B9KCGMfGQ)
+- [你还在为 TCP 重传、滑动窗口、流量控制、拥塞控制发愁吗？看完图解就不愁了](https://mp.weixin.qq.com/s/w41CRC79szZVUhdSp3lBHg)
+
+- [为什么计算机网络需要分层架构?](https://mp.weixin.qq.com/s/5aQGwlKHkdTG4j9eMjr6pg)
+
+- [计算机网络最难的问题，网络的拥塞控制](https://mp.weixin.qq.com/s/DSIYKt7qX6n0bMNrw5HA8g)
+
+- [听说你 ping 用的很 6 ？给龙叔图解一下 ping 的工作原理](https://mp.weixin.qq.com/s/17X_xmiEhSR3_mXxJOPIHw)
+- [IP 基础知识“全家桶”，45 张图一套带走](https://mp.weixin.qq.com/s/RkH1XRo5_g03cdV17XGuRQ)
+- [熬夜整理出来的HTTP总结](https://mp.weixin.qq.com/s/YhJA_ot2ijLhjs5HQYOJJw)
+- [探究！一个数据包在网络中的心路历程](https://mp.weixin.qq.com/s/gOavn4NwmDzmQXYX101qSQ)
+- [HTTP就是这么简单](https://mp.weixin.qq.com/s/V0_fcjr9t-lyqy2qyg6MWw)
+
+
+
+### Java
+
+- [java 程序员都需要懂的 反射！](https://mp.weixin.qq.com/s/ZSCQUQpaRK2pwcTtn8oM4A)
+- [龙叔花了几天总结了多线程知识](https://mp.weixin.qq.com/s/2WsndJudUBawBe6jghuM_Q)
+
+
+
+#### Redis
 
 - [Redis基础](https://mp.weixin.qq.com/s/OZRGLGk3MkdkwaNliITTUQ)
-
 - [Redis-缓存雪崩、击穿、穿透](https://mp.weixin.qq.com/s/_sYgM2YrUKwt89XgKyiuCw)
 
 
 
-### 消息队列
+### 常用中间件
+
+#### 消息队列
 
 - [什么是消息队列？](https://mp.weixin.qq.com/s/NuHIVl5SjQ0_v1EPKnT9Vw)
-
 - [带你了解什么是Push消息推送](https://mp.weixin.qq.com/s/UZgVEL7nSeXGK2f-YnRfyQ)
 
 
 
-### ZooKeeper
+#### ZooKeeper
 
 - [什么是ZooKeeper？](https://mp.weixin.qq.com/s/og-6iqPUOluz6yDtlmtpoA)
-
-
-
-### HTTP
-
-- [HTTP就是这么简单](https://mp.weixin.qq.com/s/V0_fcjr9t-lyqy2qyg6MWw)
 
 
 
@@ -87,52 +111,6 @@
 - [为什么需要Docker？](https://mp.weixin.qq.com/s/VvKNWSgePxNWMU66NcUy6w)
 
 - [漫画：大厂总体SaaS化部署，到底什么是IaaS、PaaS和SaaS？](https://mp.weixin.qq.com/s/_KClOHJBOHeRVbIgestK1w)
-
-
-
-### 密码学系列
-
-- [聊聊密码学中的DES算法](https://mp.weixin.qq.com/s/tpupz8T5Ei-xB2pKdfKQQQ)
-
-- [你不能只会郭言郭语，这些DES 问题你也必须知道！](https://mp.weixin.qq.com/s/Akvn7TR5sJaToK8mDrR5UA)
-
-- [懂点密码学](https://mp.weixin.qq.com/s/kcvm79m1-3SflYUo56idsg)
-
-- [分组密码的工作模式介绍大全来了！精确简短、内容全面，你不能不看。](https://mp.weixin.qq.com/s/Nme1UgaWqSu81__-Mz2CFQ)
-
-- [分组密码](https://mp.weixin.qq.com/s/iYCG6sMtRHJBHke1x7XkFA)
-
-- [流密码](https://mp.weixin.qq.com/s/XCi27yPXNNQkBGtNflUJqg)
-
-- [信息安全威胁](https://mp.weixin.qq.com/s/W0HN44O1YI6UcfeOKj9N-g)
-
-
-
-### Java
-
-- [java 程序员都需要懂的 反射！](https://mp.weixin.qq.com/s/ZSCQUQpaRK2pwcTtn8oM4A)
-
-
-
-### 程序人生
-
-- [初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
-
-- [程序员成神之路，一年挖坑，五年扛旗，十年成神](https://mp.weixin.qq.com/s/PNYa9ocj1hBYjIko-JGq_w)
-
-- [“妈，我今年过年不回家了...”](https://mp.weixin.qq.com/s/CiAGpmLsiPxeE8CyeBU4gw)
-
-- [史上最惨考生，“你” 注定不凡，写给正在高考的侄子](https://mp.weixin.qq.com/s/Ou59a5fhGslC6Z_6wz3O6w)
-
-- [外包程序员 == 二等公民？](https://mp.weixin.qq.com/s/IUyk7zSXWH-REZXnkiq8kg)
-
-- [上元节只吃元宵，这样就太平淡了...](https://mp.weixin.qq.com/s/P8YhFdgjXWPYfWO0UYJqhA)
-
-- [春节不能外出，没事，我把2020最美雪景送给你](https://mp.weixin.qq.com/s/QJX2U8Go_WQ21icL2Mr1tA)
-
-- [直男们是如何通过送礼物气死自己女朋友的？](https://mp.weixin.qq.com/s/3eUgj-IcVKQjIMX1rSGRuQ)
-
-- [病毒VS人类免疫系统，一场史诗级大战！](https://mp.weixin.qq.com/s/M-VVsdJfeZo1CP1-BMg2_g)
 
 
 
@@ -145,6 +123,21 @@
 ### 素材
 
 - [二十多个免费高清图片素材网站送给你](https://mp.weixin.qq.com/s/pcMWdKh9cFMS75sAxgCrWg)
+
+
+
+### 程序人生
+
+- [初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
+- [蘑菇街被裁之后，龙叔首次发文公布这几件大事情](https://mp.weixin.qq.com/s/b8Ktq5NiuSFfTq-GAJZRuw)
+- [程序员成神之路，一年挖坑，五年扛旗，十年成神](https://mp.weixin.qq.com/s/PNYa9ocj1hBYjIko-JGq_w)
+- [“妈，我今年过年不回家了...”](https://mp.weixin.qq.com/s/CiAGpmLsiPxeE8CyeBU4gw)
+- [史上最惨考生，“你” 注定不凡，写给正在高考的侄子](https://mp.weixin.qq.com/s/Ou59a5fhGslC6Z_6wz3O6w)
+- [外包程序员 == 二等公民？](https://mp.weixin.qq.com/s/IUyk7zSXWH-REZXnkiq8kg)
+- [上元节只吃元宵，这样就太平淡了...](https://mp.weixin.qq.com/s/P8YhFdgjXWPYfWO0UYJqhA)
+- [春节不能外出，没事，我把2020最美雪景送给你](https://mp.weixin.qq.com/s/QJX2U8Go_WQ21icL2Mr1tA)
+- [直男们是如何通过送礼物气死自己女朋友的？](https://mp.weixin.qq.com/s/3eUgj-IcVKQjIMX1rSGRuQ)
+- [病毒VS人类免疫系统，一场史诗级大战！](https://mp.weixin.qq.com/s/M-VVsdJfeZo1CP1-BMg2_g)
 
 
 

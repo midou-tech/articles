@@ -2,11 +2,13 @@
 
 &emsp;以前都是被别人授之以鱼，尝到了鱼肉的鲜美，我学习了捕鱼之术，以后我希望我不仅能授之以鱼，同时也能授之以渔。
 
-&emsp;**从2020年开始去分享我的所有学习经验、学习笔记、学习的心路历程，后期也会去开源自己的一些成果性项目。**
+**从2020年开始去分享我的所有学习经验、学习笔记、学习的心路历程，后期也会去开源自己的一些成果性项目。**
 
-&emsp;这是我总结的一个后期的写作提纲放在github： [https://github.com/midou-tech/articles](https://github.com/midou-tech/articles)，github是个开放、活跃的地方，欢迎大家踊跃star 和 issues ，`用心分享，让我们一起共同成长`。 大纲中的内容会以每月至少四次(如果工作不太忙或者沉淀的东西多更新频率会高一些)的状态更新，同时欢迎大家 issue 一些希望分享的内容。
+这是我总结的一个后期的写作提纲放在github： [https://github.com/midou-tech/articles](https://github.com/midou-tech/articles)，github是个开放、活跃的地方，欢迎大家踊跃star 和 issues ，`用心分享，让我们一起共同成长`。 大纲中的内容会以每月至少四次(如果工作不太忙或者沉淀的东西多更新频率会高一些)的状态更新，同时欢迎大家 issue 一些希望分享的内容。
 
-&emsp;**我的所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。大家在看博文的过程中遇到任何问题或者生活工作上遇到问题都可以给我发mail：2507367760@qq.com 或者 longyueshier@163.com  或者 longyueshier@gmail.com 我会每周三和周六的时候回复大家的邮件问题(工作繁忙，自己也需要沉淀，多理解下)。**
+我的所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。
+
+在阅读过程中有任何问题可以去公众号回复【加群】把你拉进读者交流群里，群里有各种大佬，基本你遇到的问题大家都遇到过。
 
 <p align="center">
   <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
@@ -31,6 +33,15 @@
 - [学会龙叔这套面试秘诀，一套大招带走面试官](https://mp.weixin.qq.com/s/KWHVgiUYjxtGnZbhrWWz0g)
 - [当你面试“自我介绍”还在我是XXX时，看到这篇文章的同学们已经拿到了offer...](https://mp.weixin.qq.com/s/veEprCLH63gSQymEaSAdYQ)
 - [龙叔修改了几百封简历，实在忍不住了](https://mp.weixin.qq.com/s/4KxX2gr6LsAzQmOXddPgzA)
+- [ 互联网大厂，社招面试都问啥问题？](https://mp.weixin.qq.com/s/cMuv2VyKHOG9-LzAfR25HA)
+
+
+
+### 读者们都有哪些疑惑
+
+- [想转行，没有拿到满意的offer怎么办？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [南邮硕士，面试屡屡受挫，是能力有问题，还是面试技巧欠缺？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [工作一年多，越来越迷茫、焦虑，不知道学什么技术好，跳槽也不知道跳向哪里](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
 
 
 
@@ -138,8 +149,6 @@
 - [春节不能外出，没事，我把2020最美雪景送给你](https://mp.weixin.qq.com/s/QJX2U8Go_WQ21icL2Mr1tA)
 - [直男们是如何通过送礼物气死自己女朋友的？](https://mp.weixin.qq.com/s/3eUgj-IcVKQjIMX1rSGRuQ)
 - [病毒VS人类免疫系统，一场史诗级大战！](https://mp.weixin.qq.com/s/M-VVsdJfeZo1CP1-BMg2_g)
-
-
 
 
 

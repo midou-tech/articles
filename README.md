@@ -26,7 +26,7 @@
 
 
 
-## 历史文章分类：
+## 历史文章归档
 
 ### 面试
 
@@ -34,10 +34,11 @@
 - [当你面试“自我介绍”还在我是XXX时，看到这篇文章的同学们已经拿到了offer...](https://mp.weixin.qq.com/s/veEprCLH63gSQymEaSAdYQ)
 - [龙叔修改了几百封简历，实在忍不住了](https://mp.weixin.qq.com/s/4KxX2gr6LsAzQmOXddPgzA)
 - [ 互联网大厂，社招面试都问啥问题？](https://mp.weixin.qq.com/s/cMuv2VyKHOG9-LzAfR25HA)
+- [龙叔那年那年校招拿了十几个offer，整理了这些面试题](https://mp.weixin.qq.com/s/81CHjHuxcml0XhKdRx3IJg)
 
 
 
-### 读者们都有哪些疑惑
+### 和读者们聊天
 
 - [想转行，没有拿到满意的offer怎么办？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
 - [南邮硕士，面试屡屡受挫，是能力有问题，还是面试技巧欠缺？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
@@ -139,8 +140,10 @@
 
 ### 程序人生
 
-- [初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
 - [蘑菇街被裁之后，龙叔首次发文公布这几件大事情](https://mp.weixin.qq.com/s/b8Ktq5NiuSFfTq-GAJZRuw)
+- [工作9个月被裁，从被裁到上岸龙叔告诉你失业后如何自渡？如何保证核心竞争力？](https://mp.weixin.qq.com/s/4vy5V1MQgwaN6ERUUsx7ng)
+
+- [初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
 - [程序员成神之路，一年挖坑，五年扛旗，十年成神](https://mp.weixin.qq.com/s/PNYa9ocj1hBYjIko-JGq_w)
 - [“妈，我今年过年不回家了...”](https://mp.weixin.qq.com/s/CiAGpmLsiPxeE8CyeBU4gw)
 - [史上最惨考生，“你” 注定不凡，写给正在高考的侄子](https://mp.weixin.qq.com/s/Ou59a5fhGslC6Z_6wz3O6w)

@@ -6,7 +6,7 @@
 
 这是我总结的一个后期的写作提纲放在github： [https://github.com/midou-tech/articles](https://github.com/midou-tech/articles)，github是个开放、活跃的地方，欢迎大家踊跃star 和 issues ，`用心分享，让我们一起共同成长`。 大纲中的内容会以每月至少四次(如果工作不太忙或者沉淀的东西多更新频率会高一些)的状态更新，同时欢迎大家 issue 一些希望分享的内容。
 
-我的所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。
+所有写作内容都会照顾到初学者和进阶的大佬，每一个大纲中的知识点都会从简单到复杂，不会一上来就讲些太难的，也不会只分享一些简单易学的、没有营养的内容。
 
 在阅读过程中有任何问题可以去公众号回复【加群】把你拉进读者交流群里，群里有各种大佬，基本你遇到的问题大家都遇到过。
 
@@ -38,11 +38,20 @@
 
 
 
-### 和读者们聊天
+### 每周读者
 
 - [想转行，没有拿到满意的offer怎么办？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
 - [南邮硕士，面试屡屡受挫，是能力有问题，还是面试技巧欠缺？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
 - [工作一年多，越来越迷茫、焦虑，不知道学什么技术好，跳槽也不知道跳向哪里](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [工作两年，技术不自信，越来越迷茫应该怎么办？](https://mp.weixin.qq.com/s/oR7lbiwvIGGaYLeAlrQrFg)
+- [在美留学生，互联网的学习遇到瓶颈期，龙叔说：别慌！](https://mp.weixin.qq.com/s/GBKiBAUgw3TVF1IOMFwCuA)
+- [龙叔读者搭上春招末班车喜提京东offer](https://mp.weixin.qq.com/s/ryoiQL4IZdPiHLAq9EPIuw)
+
+
+
+### ElasticSearch系列
+
+- [开篇简介，讲讲为什么学习ElasticSearch](https://mp.weixin.qq.com/s/dxhVekD-B4MdSA1BZwlkSw)
 
 
 

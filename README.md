@@ -46,12 +46,15 @@
 - [工作两年，技术不自信，越来越迷茫应该怎么办？](https://mp.weixin.qq.com/s/oR7lbiwvIGGaYLeAlrQrFg)
 - [在美留学生，互联网的学习遇到瓶颈期，龙叔说：别慌！](https://mp.weixin.qq.com/s/GBKiBAUgw3TVF1IOMFwCuA)
 - [龙叔读者搭上春招末班车喜提京东offer](https://mp.weixin.qq.com/s/ryoiQL4IZdPiHLAq9EPIuw)
+- [因为兴趣选择数据挖掘专业，现在却想转Java...](https://mp.weixin.qq.com/s/kDSnaGBqi-yAEAIXi606_g)
 
 
 
 ### ElasticSearch系列
 
 - [开篇简介，讲讲为什么学习ElasticSearch](https://mp.weixin.qq.com/s/dxhVekD-B4MdSA1BZwlkSw)
+- [Elasticsearch学习路线](https://mp.weixin.qq.com/s/leUDtu4v1WX5qPUfy0TfiQ)
+- [Elasticsearch的Mapping配置](https://mp.weixin.qq.com/s/6XlVAvD6OwfZC6A8PqwWIQ)
 
 
 
@@ -67,6 +70,7 @@
 
 - [数据结构你学的怎么样？为你总结了一份超全知识点思维导图](https://mp.weixin.qq.com/s/4hPweZRWFZs7eUAHZzAqPw)
 - [O(3N)≈O(N) O(3N)=O(N)？](https://mp.weixin.qq.com/s/ojpalODlcRK7R5Cr3b0fpw)
+- [龙叔也没想到 Hash 冲突还能这么玩，你的服务中招了吗？](https://mp.weixin.qq.com/s/MmKZCKqakp92N_fFjuetmw)
 
 
 
@@ -81,15 +85,13 @@
 #### 计算机网络
 
 - [三次握手、四次挥手，一个被面试官虐了千百遍的问题](https://mp.weixin.qq.com/s/3CvKDlH99_vLJ9yjA5E_GQ)
-
 - [TCP粘包问题](https://mp.weixin.qq.com/s/5oDim8z_xJhMKhHR9w-V3A)
 - [字节二面被问TCP是如何保证可靠性？我傻眼了...](https://mp.weixin.qq.com/s/ZMR0niaGItfW7B9KCGMfGQ)
 - [你还在为 TCP 重传、滑动窗口、流量控制、拥塞控制发愁吗？看完图解就不愁了](https://mp.weixin.qq.com/s/w41CRC79szZVUhdSp3lBHg)
-
+- [读者问龙叔，TCP 半连接队列和全连接队列满了会发生什么？又该如何应对？](https://mp.weixin.qq.com/s/r1IZT0-gUHHE6Ltf0igZzg)
+- [实战！龙叔用“大白鲨”让你看见 TCP](https://mp.weixin.qq.com/s/5EBMYGXAM2EyfqpyBI34lg)
 - [为什么计算机网络需要分层架构?](https://mp.weixin.qq.com/s/5aQGwlKHkdTG4j9eMjr6pg)
-
 - [计算机网络最难的问题，网络的拥塞控制](https://mp.weixin.qq.com/s/DSIYKt7qX6n0bMNrw5HA8g)
-
 - [听说你 ping 用的很 6 ？给龙叔图解一下 ping 的工作原理](https://mp.weixin.qq.com/s/17X_xmiEhSR3_mXxJOPIHw)
 - [IP 基础知识“全家桶”，45 张图一套带走](https://mp.weixin.qq.com/s/RkH1XRo5_g03cdV17XGuRQ)
 - [熬夜整理出来的HTTP总结](https://mp.weixin.qq.com/s/YhJA_ot2ijLhjs5HQYOJJw)
@@ -149,9 +151,10 @@
 
 ### 程序人生
 
+- [惨遭社会毒打的一年，你龙叔还是你龙叔(毕业一年)](https://mp.weixin.qq.com/s/j3DeCCzUCUCCEIrI7utlkg)
+- [愿此去前程似锦，再相逢全都暴富](https://mp.weixin.qq.com/s/XwEcaH5GcL0VO5JKee7w9g)
 - [蘑菇街被裁之后，龙叔首次发文公布这几件大事情](https://mp.weixin.qq.com/s/b8Ktq5NiuSFfTq-GAJZRuw)
 - [工作9个月被裁，从被裁到上岸龙叔告诉你失业后如何自渡？如何保证核心竞争力？](https://mp.weixin.qq.com/s/4vy5V1MQgwaN6ERUUsx7ng)
-
 - [初学编程，该如何选择编程语言？](https://mp.weixin.qq.com/s/wTv67aYUHmrNGPWsWNbpBg)
 - [程序员成神之路，一年挖坑，五年扛旗，十年成神](https://mp.weixin.qq.com/s/PNYa9ocj1hBYjIko-JGq_w)
 - [“妈，我今年过年不回家了...”](https://mp.weixin.qq.com/s/CiAGpmLsiPxeE8CyeBU4gw)

@@ -28,41 +28,15 @@
 
 ## 历史文章归档
 
-### 面试
+### 求职
 
 - [学会龙叔这套面试秘诀，一套大招带走面试官](https://mp.weixin.qq.com/s/KWHVgiUYjxtGnZbhrWWz0g)
 - [当你面试“自我介绍”还在我是XXX时，看到这篇文章的同学们已经拿到了offer...](https://mp.weixin.qq.com/s/veEprCLH63gSQymEaSAdYQ)
 - [龙叔修改了几百封简历，实在忍不住了](https://mp.weixin.qq.com/s/4KxX2gr6LsAzQmOXddPgzA)
 - [ 互联网大厂，社招面试都问啥问题？](https://mp.weixin.qq.com/s/cMuv2VyKHOG9-LzAfR25HA)
 - [龙叔那年那年校招拿了十几个offer，整理了这些面试题](https://mp.weixin.qq.com/s/81CHjHuxcml0XhKdRx3IJg)
-
-
-
-### 每周读者
-
-- [想转行，没有拿到满意的offer怎么办？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
-- [南邮硕士，面试屡屡受挫，是能力有问题，还是面试技巧欠缺？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
-- [工作一年多，越来越迷茫、焦虑，不知道学什么技术好，跳槽也不知道跳向哪里](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
-- [工作两年，技术不自信，越来越迷茫应该怎么办？](https://mp.weixin.qq.com/s/oR7lbiwvIGGaYLeAlrQrFg)
-- [在美留学生，互联网的学习遇到瓶颈期，龙叔说：别慌！](https://mp.weixin.qq.com/s/GBKiBAUgw3TVF1IOMFwCuA)
-- [龙叔读者搭上春招末班车喜提京东offer](https://mp.weixin.qq.com/s/ryoiQL4IZdPiHLAq9EPIuw)
-- [因为兴趣选择数据挖掘专业，现在却想转Java...](https://mp.weixin.qq.com/s/kDSnaGBqi-yAEAIXi606_g)
-
-
-
-### ElasticSearch系列
-
-- [开篇简介，讲讲为什么学习ElasticSearch](https://mp.weixin.qq.com/s/dxhVekD-B4MdSA1BZwlkSw)
-- [Elasticsearch学习路线](https://mp.weixin.qq.com/s/leUDtu4v1WX5qPUfy0TfiQ)
-- [Elasticsearch的Mapping配置](https://mp.weixin.qq.com/s/6XlVAvD6OwfZC6A8PqwWIQ)
-
-
-
-### C&C++
-
-- [带你重新认识指针(上)](https://mp.weixin.qq.com/s/tdyCTqH9WYMrS0HmRtVPng)
-- [带你重新认识指针(下)](https://mp.weixin.qq.com/s/-C_PHEk0ZUf7JUN0Bd80rQ)
-- [数组详解](https://mp.weixin.qq.com/s/JwUaBwRirnBfsdJst8Fuxg)
+- [校招面试套路](https://mp.weixin.qq.com/s/c4BIRmWrh1OZEXsteKzUww)
+- [校招生如何选择一个好的offer？](https://mp.weixin.qq.com/s/QQ3SdL0i4Sru23abQ9cc9A)
 
 
 
@@ -78,7 +52,15 @@
 
 #### 操作系统
 
+- [什么是操作系统？](https://mp.weixin.qq.com/s/H0WcPXPo0107Oqh_4NwrUw)
+
+- [操作系统的组成架构](https://mp.weixin.qq.com/s/6wrp6864leNuZlLuRlzmlg)
+
+- [位操作在系统设计中的重要性](https://mp.weixin.qq.com/s/DokVaYFtwxJfMUWf4F-W7g)
+
 - [学习linux命令，看这篇2w多字的命令详解就够了](https://mp.weixin.qq.com/s/nMTsD2y_drV971RxdE1a5g) 
+
+  
 
 
 
@@ -100,10 +82,19 @@
 
 
 
+### C&C++
+
+- [带你重新认识指针(上)](https://mp.weixin.qq.com/s/tdyCTqH9WYMrS0HmRtVPng)
+- [带你重新认识指针(下)](https://mp.weixin.qq.com/s/-C_PHEk0ZUf7JUN0Bd80rQ)
+- [数组详解](https://mp.weixin.qq.com/s/JwUaBwRirnBfsdJst8Fuxg)
+
+
+
 ### Java
 
 - [java 程序员都需要懂的 反射！](https://mp.weixin.qq.com/s/ZSCQUQpaRK2pwcTtn8oM4A)
 - [龙叔花了几天总结了多线程知识](https://mp.weixin.qq.com/s/2WsndJudUBawBe6jghuM_Q)
+- [java异常处理问题](https://mp.weixin.qq.com/s/XcyopGnqLochBDKrAAvS7A)
 
 
 
@@ -137,6 +128,22 @@
 
 
 
+### 系统设计
+
+- [100k并发系统设计](https://mp.weixin.qq.com/s/nJpWpnXd4V5hEZL4n71eEA)
+
+
+
+### ElasticSearch系列
+
+- [开篇简介，讲讲为什么学习ElasticSearch](https://mp.weixin.qq.com/s/dxhVekD-B4MdSA1BZwlkSw)
+- [Elasticsearch学习路线](https://mp.weixin.qq.com/s/leUDtu4v1WX5qPUfy0TfiQ)
+- [Elasticsearch的Mapping配置](https://mp.weixin.qq.com/s/6XlVAvD6OwfZC6A8PqwWIQ)
+
+
+
+
+
 ### 工具集
 
 - [顶级程序员工具集](https://mp.weixin.qq.com/s/Sel5ySSh0YJXdQ6KExQxyw)
@@ -146,6 +153,18 @@
 ### 素材
 
 - [二十多个免费高清图片素材网站送给你](https://mp.weixin.qq.com/s/pcMWdKh9cFMS75sAxgCrWg)
+
+
+
+### 每周读者
+
+- [想转行，没有拿到满意的offer怎么办？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [南邮硕士，面试屡屡受挫，是能力有问题，还是面试技巧欠缺？](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [工作一年多，越来越迷茫、焦虑，不知道学什么技术好，跳槽也不知道跳向哪里](https://mp.weixin.qq.com/s/kYuytYm2EFuPYq3S0zdRlQ)
+- [工作两年，技术不自信，越来越迷茫应该怎么办？](https://mp.weixin.qq.com/s/oR7lbiwvIGGaYLeAlrQrFg)
+- [在美留学生，互联网的学习遇到瓶颈期，龙叔说：别慌！](https://mp.weixin.qq.com/s/GBKiBAUgw3TVF1IOMFwCuA)
+- [龙叔读者搭上春招末班车喜提京东offer](https://mp.weixin.qq.com/s/ryoiQL4IZdPiHLAq9EPIuw)
+- [因为兴趣选择数据挖掘专业，现在却想转Java...](https://mp.weixin.qq.com/s/kDSnaGBqi-yAEAIXi606_g)
 
 
 
@@ -164,26 +183,14 @@
 - [春节不能外出，没事，我把2020最美雪景送给你](https://mp.weixin.qq.com/s/QJX2U8Go_WQ21icL2Mr1tA)
 - [直男们是如何通过送礼物气死自己女朋友的？](https://mp.weixin.qq.com/s/3eUgj-IcVKQjIMX1rSGRuQ)
 - [病毒VS人类免疫系统，一场史诗级大战！](https://mp.weixin.qq.com/s/M-VVsdJfeZo1CP1-BMg2_g)
+- [毕业一年，你龙叔还是你龙叔](https://mp.weixin.qq.com/s/j3DeCCzUCUCCEIrI7utlkg)
+- [乔波滑雪之快乐时光](https://mp.weixin.qq.com/s/86jdze4VNpf-DbtecdhlRA)
+- [校草外甥考上了西安最好的科技大学](https://mp.weixin.qq.com/s/bIp1ZtBXXO1aafG-h38DGg)
+- [帝都旅行](https://mp.weixin.qq.com/s/xRuFWQvNIRBxoSK-vblbDg)
+- [体检结果出来了，两年班白上了？](https://mp.weixin.qq.com/s/Qmw-xRNiakJnwXvW4t3hkQ)
+- [姐妹们湘湖游玩](https://mp.weixin.qq.com/s/U8JkYuNgP_ytDFM-Iio-iQ)
 
 
-
-**如果有人想发文章，我这里提供有偿征文(具体细则微信联系)，欢迎投稿或推荐你的项目。提供以下几种方式投稿**
-
-- 去我的github提交 issue: https://github.com/midou-tech/articles
-- 发送到邮箱: longyueshier@163.com  或者 longyueshier@gmail.com
-- 微信发送: 扫描下面二维码，公众号里面有作者微信号。
-
-投稿成功可获得**经济收益**和**额外收益**
-
-经济收益就是文章稿费
-
-额外收益：
-
-- 简历辅导
-- 项目指导
-- 面试技巧辅导
-- 职业规划辅导
-- 一线互联网大厂内推机会
 
 精选文章都同步在公众号里面，公众号看起会更方便，随时随地想看就看。微信搜索 龙跃十二 或者扫码即可订阅。
 

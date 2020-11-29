@@ -196,5 +196,7 @@
 
 # <a name="微信"></a>  <a name="公众号"></a>
 
-![龙跃十二](https://tva1.sinaimg.cn/large/00831rSTly1gdjy2023y3j30p00dw0tn.jpg)
+
+
+![龙跃十二](https://tva1.sinaimg.cn/large/0081Kckwly1gl664zg36fj30p00dwwgt.jpg)
 
